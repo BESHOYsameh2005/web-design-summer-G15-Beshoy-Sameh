@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>userForm</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <form action="" autocomplete="off" method="post">
+
+        <fieldset>
+            <legend>User Information</legend>
+
+            <div>
+                <label> First Name</label>
+                <input type="text" name="firstName" autofocus required placeholder="Enter your first name">
+            </div>
+            <div>
+                <label for="userlastName"> Last Name</label>
+                <input type="text" name="lastName" placeholder="Enter your last name" id="userlastName">
+            </div>
+            <div>
+                <label for="userEmail"> Email</label>
+                <input type="email" name="userEmail" placeholder="Enter your email" id="userEmail">
+            </div>
+            <div>
+                <label for="userShippingArea">Shipping area</label>
+                <input type="text" name="shippingArea" placeholder="Enter your shipping area" id="userShippingArea"
+                    value="Alex" readonly>
+                <input type="text" name="shipping" placeholder="Enter your shipping area" id="userShippingArea"
+                    value="Alex" disabled>
+
+            </div>
+            <div>
+                <input type="password" placeholder="Enter your password" name="userPassword">
+            </div>
+            <div>
+                <label for="userGender"> Gender</label>
+                <input type="radio" name="gender" value="0"><label> Male</label>
+                <input type="radio" name="gender" value="1"><label> Female</label>
+            </div>
+            <br>
+            <div>
+                <label for="">courses</label>
+                <input type="checkbox" name="courses" value="html"><label> HTML</label>
+                <input type="checkbox" name="courses" value="css"><label> CSS</label>
+                <input type="checkbox" name="courses" checked value="js"><label> JS</label>
+            </div>
+
+            <div>
+                <label for="">Age</label>
+                <input type="number" name="userAge" min="18" max="60">
+            </div>
+            <select name="track" id="">
+                <option value="0" disabled selected>Choose your track</option>
+                <option value="web">Web</option>
+                <option value="mobile">Mobile</option>
+                <option value="network">Network</option>
+            </select>
+            <select name="track" id="" multiple>
+                <option value="0" disabled selected>Choose your track</option>
+                <option value="web">Web</option>
+                <option value="mobile">Mobile</option>
+                <option value="network">Network</option>
+            </select>
+
+            <div>
+                <label for="country">Choose a country:</label>
+
+                <input type="text" id="country" list="countries">
+                <br>
+                <datalist id="countries">
+                    <option value="Egypt">
+                    <option value="Saudi Arabia">
+                    <option value="USA">
+                    <option value="Germany">
+                </datalist>
+            </div>
+            <br>
+            <div>
+                <label for="image">Choose an image</label>
+                <input type="file" name="image" multiple accept=".png">
+            </div>
+            <br>
+            <div>
+                <label for="mobile">Choose your mobile</label>
+                <input type="text" name="userMobile" id="mobile" pattern="01(0|1|2|5)[0-9]{8}"
+                    title="Please enter a valid mobile number" maxlength="11" required>
+            </div>
+            <br>
+            <div>
+                <input type="date" name="userDate">
+                <input type="datetime-local">
+                <input type="month">
+            </div>
+            <br>
+            <input type="color">
+            <div>
+                <label for="">ID</label>
+                <input type="text" minlength="10" maxlength="14">
+            </div>
+            <br>
+            <div>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="enter your message"></textarea>
+                <button type="reset">reset</button>
+            </div>
+
+            <button type="submit">Login</button>
+
+            <button type="reset">Reset</button>
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
