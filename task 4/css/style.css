@@ -1,0 +1,223 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.bg-img {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMb26HBU9J3LOKzN8BywaTqJeRtaTVgKKOq4FaMaH8zw&s=10');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    font-size: 0;
+}
+
+.overlay {
+    background-color: rgb(0 0 0 / 44%);
+    height: 100%;
+    padding: 7% 0%;
+}
+
+.text-style {
+    display: inline-block;
+    width: 65%;
+    padding: 2% 0%;
+    font-size: 16px;
+}
+
+.h1-style {
+    padding: 0% 0% 3% 0%;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+
+.p-style {
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 80%;
+}
+
+.hr-style {
+    margin: 4% 0%;
+    border: 1px solid white;
+    width: 11%;
+}
+
+.btn-style {
+    margin: 5% 0%;
+    display: block;
+    font-size: 10px;
+    padding: 1.5% 4%;
+    background-color: transparent;
+    color: white;
+    border: 1px solid;
+}
+
+.form-style {
+    background-color: white;
+    color: black;
+    padding: 0%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 2% 0% 0% 5%;
+    width: 30%;
+}
+
+.form-p-style {
+    width: 100%;
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: #80808075;
+    padding: 5%;
+}
+
+.input-style {
+    margin: 0%;
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 11px;
+    padding: 5% 2%;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+}
+
+.btn-style-get {
+    font-weight: bold;
+    background-color: orange;
+    border: none;
+    padding: 7% 0px;
+    width: 100%;
+    margin-top: 11%;
+}
+
+.btn-style-get button {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.social-section {
+    background-color: white;
+    color: #777;
+    border-bottom: 1px solid #ddd;
+}
+
+.social-container {
+    width: 80%;
+    margin: auto;
+    padding: 2% 0%;
+    font-size: 0;
+}
+
+.social-text {
+    display: inline-block;
+    vertical-align: middle;
+    width: 35%;
+    font-size: 16px;
+}
+
+.social-text h3 {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 2%;
+}
+
+.social-text p {
+    font-size: 10px;
+}
+
+.social-icons {
+    display: inline-block;
+    vertical-align: middle;
+    width: 65%;
+    text-align: right;
+}
+
+.social-icons i {
+    display: inline-block;
+    margin-left: 7%;
+    font-size: 25px;
+    color: #ccc;
+}
+
+.section-3 {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 8% 0%;
+}
+
+.square {
+    display: inline-block;
+    vertical-align: top;
+    width: 12%;
+    font-size: 0;
+}
+
+.square h2 {
+    width: 100%;
+    padding: 35% 0%;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    background-color: #333;
+    border-bottom: 5px solid #555;
+}
+
+
+.tabs-content {
+    display: inline-block;
+    vertical-align: top;
+    width: 88%;
+    padding-left: 7%;
+    font-size: 16px;
+}
+
+.content-text {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+}
+
+.content-text h3 {
+    color: #333;
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+
+.content-text p {
+    color: #777;
+    font-size: 11px;
+    line-height: 1.7;
+    margin-bottom: 4%;
+}
+
+.content-text .btn-style {
+    background-color: #f9702e;
+    border: none;
+    padding: 2% 5%;
+    margin-top: 3%;
+}
+
+
+.building-image {
+    display: inline-block;
+    vertical-align: middle;
+    width: 35%;
+    text-align: center;
+}
+
+.building-image img {
+    width: 100%;
+    -webkit-box-reflect: below 5px linear-gradient(transparent,
+            rgba(255, 255, 255, 0.226));
+}
