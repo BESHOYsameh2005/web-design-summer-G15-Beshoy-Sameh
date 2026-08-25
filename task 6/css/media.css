@@ -1,0 +1,179 @@
+@media screen and (max-width: 1024px) {
+
+    .sec1 h1 {
+        font-size: 34px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .sec1 p {
+        width: 70%;
+        margin: 2% auto;
+    }
+
+    .img-box img {
+        height: 250px;
+    }
+
+    .sec3-flex {
+        text-align: center;
+    }
+
+    .sec3-text h2 {
+        margin: 0 0 7%;
+    }
+
+    .small-card {
+        width: 35%;
+    }
+
+    .small-card i {
+        margin: 0 auto 15px;
+    }
+
+    .small-card p {
+        width: 100%;
+    }
+
+    .sec3-img {
+        display: none;
+    }
+
+    .sec4-flex {
+        gap: 3%;
+    }
+
+    .sec4-img {
+        height: 360px;
+    }
+
+    .sec4-img img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .sec4-text h2 {
+        font-size: 25px;
+    }
+
+    .sec5-text p {
+        width: 55%;
+        text-align: center;
+    }
+
+    .plants {
+        left: 8%;
+        right: 8%;
+        bottom: -80px;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 25px;
+    }
+
+    .plant {
+        width: 50%;
+    }
+
+    .footer {
+        margin-top: 15%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .nav {
+        padding: 4% 0;
+    }
+
+    .sec1 {
+        padding: 7% 0;
+    }
+
+    .sec1 h1 {
+        width: 100%;
+        font-size: 25px;
+        line-height: 1.15;
+    }
+
+    .sec1 p {
+        width: 90%;
+        font-size: 8px;
+    }
+
+    .img-flex {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .img-box {
+        width: 100%;
+    }
+
+    .sec3-flex {
+        padding: 10% 8%;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .small-card {
+        width: 70%;
+    }
+
+    .small-card p {
+        font-size: 7px;
+    }
+
+    .sec4-flex {
+        flex-direction: column;
+    }
+
+    .sec4-img,
+    .sec4-text {
+        width: 100%;
+    }
+
+    .sec4-img {
+        height: 260px;
+        margin-bottom: 5%;
+    }
+
+    .sec4-text {
+        text-align: center;
+    }
+
+    .sec4-text h2 {
+        font-size: 20px;
+    }
+
+    .sec4-text>p {
+        width: 95%;
+        margin: auto auto;
+    }
+
+    .sec5-text h2 {
+        width: 75%;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .plants {
+        bottom: -100px;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .footer {
+        margin-top: 30%;
+    }
+
+    .footer-flex {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+}
