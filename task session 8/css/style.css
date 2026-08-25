@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    margin: 15% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+}
+
+
+.card {
+    width: 255px;
+    padding: 25px 18px;
+    position: relative;
+    border-radius: 3px;
+}
+
+.card-1 {
+    border: 1px solid #00000042;
+    background-color: #eef5f8;
+    color: #222;
+}
+
+.card-1 i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    background-color: teal;
+    color: white;
+    z-index: 1;
+    border-bottom-left-radius: 100%;
+    transition: 1s ease;
+}
+
+.card-1 i::after {
+
+    font: bold;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    color: white;
+    font-size: 10px;
+    z-index: 10;
+}
+
+.card-1 h3,
+.card-1 p {
+    position: relative;
+    z-index: 2;
+}
+
+.card h3 {
+    color: #000000cf;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+
+.card p {
+    font-size: 13px;
+}
+
+.card-1 p {
+    color: #bdabab;
+}
+
+.card-1:hover {
+    border-color: teal;
+    box-shadow:
+        0 3px 8px rgba(0, 0, 0, 0.12);
+}
+
+
+.card-1:hover i {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    transition: all 0.4s ease;
+}
+
+.card-2 {
+    background-color: white;
+    color: #222;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding-top: 35px;
+    transition: 1s ease;
+}
+
+
+.card-2 i {
+    position: absolute;
+    top: 0;
+    right: -1px;
+    width: 17px;
+    height: 25px;
+    background-color: #c2188b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    z-index: 2;
+    opacity: 0;
+    transform: skewX(-8deg);
+    transition: 1s ease;
+}
+
+
+.card-2:hover {
+    border-color: #c2188b;
+    box-shadow:
+        0 3px 8px rgba(0, 0, 0, 0.12);
+}
+
+
+.card-2:hover i {
+    opacity: 1;
+    width: 18px;
+    height: 100%;
+    right: -1px;
+    transform: skewX(-8deg);
+    font-size: 12px;
+    transition: 1s ease;
+}
