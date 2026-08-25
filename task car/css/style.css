@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image {
+    position: relative;
+}
+
+.image img {
+    margin: 7% 0%;
+    width: 100%;
+}
+
+.car {
+    position: absolute;
+    top: 50%;
+    animation: moveCar 2s linear infinite;
+}
+
+@keyframes moveCar {
+
+    0% {
+
+        transform: translate(-100%, -50%);
+    }
+
+    100% {
+
+        transform: translate(200%, -50%);
+    }
+
+}
